@@ -1,7 +1,7 @@
 import pymysql
 
 class SQLink:
-    db = 0
+    db = None
     db_host = '119.23.36.18'
     db_port = 3306
     db_name = 'test_market'
